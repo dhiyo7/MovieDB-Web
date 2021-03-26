@@ -9,6 +9,7 @@ const getUrl = "https://api.themoviedb.org/3";
 
 const Slider = () => {
   const [trending, setTrending] = useState([]);
+  const [tgl, setTgl] = useState();
 
   const getTrending = async () => {
     await axios
@@ -75,7 +76,7 @@ const Slider = () => {
                   </p>
                   <div className="pl-3 text-white h-50">
                     <h1 className="font-bold text-2xl">{title}</h1>
-                    <h5 className="inline-block">{release_date}</h5>
+                    <h5 className="inline-block">{release_date.split('-').slice(0,1)}</h5>
                     <svg
                       height="10"
                       width="10"
