@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# The Movie DB Clone With React and Tailwind CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the project
 
-## Available Scripts
+Project membuat front-end [The Movie DB](https://www.themoviedb.org/) versi clone dengan ReactJs dan Tailwind untuk styling nya. disini saya juga menggunakan beberapa libraray pendukung untuk development.
 
-In the project directory, you can run:
+## Build with Project
 
-### `yarn start`
+- [TailwindCSS](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Berikut langkah langkah untuk menjalankan projek secara lokal.
 
-### `yarn test`
+### How to run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Clone Repository
+  
+  ```sh
+    https://github.com/dhiyo7/MovieDB-Web.git
+  ```
 
-### `yarn build`
+- Install dependecies yang di butuhkan dengan perintah yarn atau npm
+  
+  - yarn
+    
+    ```shell
+    yarn
+    ```
+  
+  - npm
+    
+    ```shell
+    npm i
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Masuk ke dalam directory projek
+  
+  ```shell
+  cd MovieDB-Web/
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Jalankan perintah start dengan yarn atau npm
+  
+  - yarn
+    
+    ```shell
+    yarn start
+    ```
+  
+  - npm
+    
+    ```shell
+    npm run start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ScreenShoot
 
-### `yarn eject`
+| Halaman | Screenshoot                                                                                                         | Keterangan                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Home    | ![](https://res.cloudinary.com/devloops7/image/upload/v1616787171/mister_aladin/smartmockups_kmqpabd0_nhvria.png)   | Tampilan awal pada Dhiyo Movie Today terdapat slider berdasarkan trending dan film lainnya. |
+| Content | ![](https://res.cloudinary.com/devloops7/image/upload/v1616787173/mister_aladin/smartmockups_kmqpagru_spuui4.png)   | Tampilan pada halaman content terdapat daftar film dan beberapa genre.                      |
+| Detail  | ![as](https://res.cloudinary.com/devloops7/image/upload/v1616787174/mister_aladin/smartmockups_kmqpbupq_mbijbt.png) | Di halam detail akan menampilkan semua data info mengenai film tersebut.                    |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Build and Deploy
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="[Line Today Clone](https://clonelinetoday.netlify.app)">
+<img alt="Netlify" src="https://img.shields.io/netlify/6eba3c04-899b-44c2-86dd-e8cd814b6a0a?color=green&logo=netlify&style=plastic">
+</a>
