@@ -7,20 +7,13 @@ import { API_IMAGE } from "../../utils/environment";
 const DetailMovie = () => {
   const { movieDetail: item } = useSelector((state) => state.movie);
   const dispatch = useDispatch();
-  const { id } = useParams();
 
-  //   console.log(
-  //     "item",
-  //     item.budget.toLocaleString("en-US", {
-  //       style: "currency",
-  //       currency: "USD",
-  //     })
-  //   );
-  console.log("id", id);
+  const { id } = useParams();
 
   useEffect(() => {
     dispatch(getMovieById(id));
-  }, [id]);  // eslint-disable-line react-hooks/exhaustive-deps
+  }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <>
       <div

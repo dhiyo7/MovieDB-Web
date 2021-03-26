@@ -107,14 +107,15 @@ const Content = () => {
                               >
                                 View
                               </Link>
-                              <Link
-                                className="flex mt-10 rounded-full text-black bg-white border py-2 px-20 focus:outline-none hover:bg-gray-400 hover:text-white"
-                                href="./Borrow.html"
-                              >
+                              <Link className="flex mt-10 rounded-full text-black bg-white border py-2 px-20 focus:outline-none hover:bg-gray-400 hover:text-white">
                                 Add
                               </Link>
                             </div>
                           </div>
+                          <h1 className="text-white font-bold">{title}</h1>
+                          <h1 className="text-white font-light">
+                            {release_date.split("-").slice(0, 1)}
+                          </h1>
                         </div>
                       </>
                     );
